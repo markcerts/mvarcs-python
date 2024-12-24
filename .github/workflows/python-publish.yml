@@ -9,6 +9,7 @@
 name: Upload Python Package
 
 on:
+  workflow_dispatch:
   release:
     types: [published]
 
@@ -30,8 +31,6 @@ jobs:
 
       - name: Build release distributions
         run: |
-          # NOTE: put your own distribution build steps here.
-          git submodule update --remote
           python -m pip install build
           python -m build
 
