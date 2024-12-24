@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mvarcs",
-    version="0.0.1",
+    version="0.0.2",
     author="OllieJC",
     author_email="mvarcs-pypi@olliejc.uk",
     description="Python package for providing the MVARCS",
