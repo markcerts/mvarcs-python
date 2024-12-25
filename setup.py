@@ -31,7 +31,7 @@ setuptools.setup(
         "CMC",
         "Verification",
         "Trusted",
-    ]
+    ],
     package_dir={"mvarcs": "src"},
     package_data={"mvarcs": ["mvarcs/*.pem"]},
     packages=["mvarcs"],
