@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mvarcs",
-    version="0.0.2",
+    version="0.1.0",
     author="OllieJC",
     author_email="mvarcs-pypi@olliejc.uk",
     description="Python package for providing the MVARCS",
@@ -18,7 +18,7 @@ setuptools.setup(
     },
     license="The Unlicense",
     classifiers=[
-        "Development Status :: 3 - Alpha",
+        "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
         "License :: OSI Approved :: The Unlicense (Unlicense)",
         "Programming Language :: Python :: 3",
