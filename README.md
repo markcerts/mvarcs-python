@@ -5,7 +5,8 @@ the trustworthiness of Mark Certificates such as Verified Mark
 Certificates (VMC) and Common Mark Certificates (CMC) used in BIMI 
 (Brand Indicators for Message Identification).
 
-Current status: **Alpha**
+> Current status: **Beta**  
+> Still testing and proving implementation.
 
 ## Installation
 
