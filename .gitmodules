@@ -1,4 +1,4 @@
 [submodule "src/mvarcs"]
-	path = src/mvarcs
-	url = https://github.com/markcerts/mvarcs
+    path = src/mvarcs
+    url = https://github.com/markcerts/mvarcs
     branch = main
