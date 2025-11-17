@@ -1,12 +1,9 @@
 # mvarcs: Python Mark Verifying Authority Root Certificates
 
-mvarcs provides a collection of Root Certificates for validating 
-the trustworthiness of Mark Certificates such as Verified Mark 
-Certificates (VMC) and Common Mark Certificates (CMC) used in BIMI 
+mvarcs provides a collection of Root Certificates for validating
+the trustworthiness of Mark Certificates such as Verified Mark
+Certificates (VMC) and Common Mark Certificates (CMC) used in BIMI
 (Brand Indicators for Message Identification).
-
-> Current status: **Beta**  
-> Still testing and proving implementation.
 
 ## Installation
 
@@ -19,7 +16,7 @@ python -m pip install mvarcs
 ## Usage
 
 To reference the installed certificate authority (CA) bundle, you can use the
-built-in function
+built-in function:
 
 ``` py
 import mvarcs
@@ -27,7 +24,7 @@ mvarcs.where()
 # '/usr/local/lib/python3.13/site-packages/mvarcs/mvarcs/cacerts.pem'
 ```
 
-Additionally, you can get the contents directly
+Additionally, you can get the contents directly:
 
 ``` py
 import mvarcs
@@ -37,7 +34,8 @@ mvarcs.contents()
 # -----END CERTIFICATE-----
 ```
 
-Or from the command line
+Or from the command line:
+
 ``` sh
 python -m mvarcs
 # /usr/local/lib/python3.13/site-packages/mvarcs/mvarcs/cacert.pem
@@ -49,4 +47,5 @@ python -m mvarcs -c
 ```
 
 ## Addition/Removal of Certificates
-See https://github.com/markcerts/mvarcs
+
+See <https://github.com/markcerts/mvarcs>
